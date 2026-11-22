@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+    font-family: Arial, sans-serif;
+}
+
+#todo-form button {
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#todo-list li {
+    background: linear-gradient(90deg, #ffffff, #e0e7ff);
+    border: 1px solid #c4b5fd;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+#task-count {
+    color: #4f46e5;
+}
+
+#complete-count {
+    color: #16a34a;
+}
+
+body {
+    min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
+}
+
+#todo-list {
+    height: auto;
+    overflow: visible;
+}
+
+#todo-list li {
+    margin-bottom: 12px;
+}
+
+body {
+    min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
+    align-items: flex-start;
+}
+
+body>div {
+    height: auto !important;
+    min-height: 0;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+#todo-list {
+    height: auto;
+    overflow: visible;
+}
+
+#todo-list li {
+    transition: all 0.3s ease;
+}
+
+#todo-form {
+    margin-top: 40px;
+}
+
+/* #todo-input {
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    padding: 12px 15px;
+    border-radius: 12px;
+} */
+
+
+#todo-input {
+    width: 100%;
+    min-height: 50px;
+    resize: both;
+    padding: 12px;
+    font-size: 16px;
+}
+
+
+/* New Task Animation */
+#todo-list li {
+    animation: taskEnter 0.4s ease-out;
+    transform-origin: top;
+}
+
+@keyframes taskEnter {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}

@@ -1,0 +1,68 @@
+#aditya {
+    font-family: "Chewy";
+}
+
+
+#vikash {
+    font-size: 100px;
+    letter-spacing: 30px;
+    text-shadow: -1px -1px 10px red;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 900;
+    text-indent: 100px;
+}
+
+
+#anu {
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    word-spacing: 30px;
+}
+
+.chewy-regular {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#rupesh {
+    text-align: end;
+    border: 1px solid red;
+}
+
+#nilesh {
+    /* border: 1px solid red; */
+    text-align: center;
+    /* text-decoration: underline dotted;
+    text-decoration: line-through;
+    text-decoration: overline; */
+    /* text-decoration: underline wavy; */
+
+    /* text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase; */
+    text-indent: 39px;
+}
+
+
+em {
+    font-style: normal;
+}
+
+#color {
+    color: red;
+    color: #0000ff;
+    color: rgb(189, 110, 110);
+    color: rgb(64, 0, 255, 0.508);
+
+    color: hsl(360, 100%, 50%);
+    color: hsla(360, 100%, 50%, .5);
+    color: #ed4356;
+    /* background-color: rgb(253, 147, 147); */
+}
+
