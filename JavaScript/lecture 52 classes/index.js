@@ -25,10 +25,10 @@ const p2 = new product("Samsung 3251 galaxy fold", 249847456);
 // console.log(p2.name);
 
 class User {
-  country = "india"; // defult property
-  constructor(name, country) {
+  country = "india" // defult property
+  constructor(name, country2) {
     this.name = name; // instance property
-    this.name = country; // instance property
+    this.country = country2; // instance property
   }
 
   printName() {
@@ -36,6 +36,7 @@ class User {
     console.log(this.name);
   }
 }
+
 
 const u1 = new User("Manish", "India");
 const u2 = new User("Dipak", "India");
@@ -74,10 +75,11 @@ class BankAccount {
     this.#balance = this.#balance + amount;
   }
 
-  calculateTAx() {
+  calculateTax() {
     console.log("calculating tax...");
   }
 }
+
 
 let acc1 = new BankAccount(500);
 let acc2 = new BankAccount(500);

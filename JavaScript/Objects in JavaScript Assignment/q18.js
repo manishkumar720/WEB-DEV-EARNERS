@@ -1,8 +1,8 @@
 
 
 function showSkills(name, ...skills) {
-    console.log("Name:", name);
-    console.log("skills:", skills.join(","));
+    console.log(name);
+    console.log(skills.join(", "));
 }
 
 showSkills("Manish", "HTML", "CSS", "JavaScript");

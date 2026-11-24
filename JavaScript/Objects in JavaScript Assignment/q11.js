@@ -5,8 +5,12 @@ const user = {
     role: "developer"
 };
 
-const { name, email } = user;
 
-console.log(name);
-console.log(email);
+const {name, email, role} = user
 
+
+// const name = user.name
+// const email = user.email
+// const role = user.role
+
+console.log(name , email, role);

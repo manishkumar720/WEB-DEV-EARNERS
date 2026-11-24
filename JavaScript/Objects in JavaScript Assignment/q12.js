@@ -4,6 +4,6 @@ const product = {
     price: "75000"
 };
 
-const { name: productName } = product;
+const { name: productName , price} = product;
 
 console.log(productName);
