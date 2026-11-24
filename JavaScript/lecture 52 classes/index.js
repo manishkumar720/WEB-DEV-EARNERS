@@ -100,3 +100,5 @@ acc1.deposit(-111);
 acc1.get();
 
 console.log(BankAccount.totalBankAccount);
+
+
