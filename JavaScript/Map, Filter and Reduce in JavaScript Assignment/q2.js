@@ -1,5 +1,9 @@
 
-let prices = [100, 250, 500];
-let result = prices.map(price => `₹${price}`);
+let price = [100, 250, 500];
 
-console.log(result);
+let priceWithCurrency = price.map(p => {
+    return `₹${p}`
+});
+
+console.log(price);
+console.log(priceWithCurrency);

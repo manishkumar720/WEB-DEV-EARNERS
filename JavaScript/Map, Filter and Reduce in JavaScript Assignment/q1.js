@@ -1,7 +1,22 @@
+// let colors = ["red", "green", "blue", "pink"]
+
+// const newColors = colors.map((color) => {
+//     if (color === "green") {
+//         return color + 1
+//     }
+
+//     return color
+// })
+
+// console.log(newColors);
 
 
-let products = ["laptop", "mobile", "headphone"];
 
-let result = products.map(item => item.toUpperCase());
+const products = ["laptop", "mobile", "headphones"]
 
-console.log(result);
+let newProducts = products.map((product) => {
+  return product.toUpperCase();
+});
+
+console.log(products);
+console.log(newProducts);
